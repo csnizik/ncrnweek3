@@ -27,7 +27,7 @@ function Mission() {
 const AboutScreen = () => {
     const partners = useSelector((state) => state.partners);
 
-    if (partners.isLoading) {
+    if (partners) {
         return (
             <ScrollView>
                 <Mission />

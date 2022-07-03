@@ -71,7 +71,7 @@ const CampsiteInfoScreen = ({ route }) => {
                             markFavorite={() =>
                                 dispatch(toggleFavorite(campsite.id))
                             }
-                            onShowModal={() => setShowModal(!showModal)}
+                            onShowModal={() => setShowModal(showModal)}
                         />
                         <Text style={styles.commentsTitle}>Comments</Text>
                     </>
